@@ -1,0 +1,29 @@
+.Login_container{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#login_input{
+    width: 300px;
+}
+.Loginbtn{
+    background-color: blue;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    
+}
+.Loginbtn:hover{
+    color: white;
+}
+.loginforum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}

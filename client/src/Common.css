@@ -1,0 +1,46 @@
+.input_box{
+  background:none;
+  border: 1px solid #777;
+  border-radius: 3px;
+  display: block;
+  width:100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  color:black;
+}
+.header1{
+  font-size: 1.8rem;
+}
+.header2{
+  font-size: 1.6rem;
+}
+.HeaderRow{
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  padding: 30px 20px;
+}
+.qplink{
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 10px;
+}
+.qplink:hover{
+  color: black;
+}
+.askbtn{
+  background-color: blue;
+  height: 40px;
+  border-radius: 5px;
+  width: 100px;
+  cursor: pointer;
+  color: white;
+}
+.askbtn:hover{
+  color: black;
+}

@@ -1,0 +1,29 @@
+.Register_container{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+#register_input{
+    width: 300px;
+}
+.Registerbtn{
+    background-color: blue;
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    cursor: pointer;
+    
+}
+.Registerbtn:hover{
+    color: white;
+}
+.registerforum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
